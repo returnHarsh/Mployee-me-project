@@ -21,10 +21,10 @@ const PORT = process.env.PORT || 8080;
 
 app.use("/api/user" , userRouter);
 
-// app.use(express.static(path.join(__dirname , "thread-client" , "dist")));
-// app.get("*", function(_, res) {
-//     res.sendFile(path.join(__dirname, "thread-client", "dist", "index.html"));
-//   });
+app.use(express.static(path.join(__dirname , "client" , "dist")));
+app.get("*", function(_, res) {
+    res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
+  });
   
 
 

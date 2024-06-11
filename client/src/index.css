@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-text-left-footer{
+    @apply text-[12px] lg:text-[14px];
+}
