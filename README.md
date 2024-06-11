@@ -3,7 +3,7 @@
  step1 : download this repo
  strep2 : insde it there is client folder inside the server folder , install all the dependencies by running 
 
- npm inti
+ npm init
 
  then go inside the client folder
 
