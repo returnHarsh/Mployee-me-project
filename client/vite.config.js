@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "http://localhost:8080",
+				target: "https://mployee-me-project-ult8.vercel.app/",
 				changeOrigin: true,
 				secure: false,
 			},
